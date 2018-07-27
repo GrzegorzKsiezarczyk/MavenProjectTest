@@ -16,7 +16,8 @@ public class FBhome {
 	 @FindBy(how=How.XPATH, using="//div[text()='Account Settings']") WebElement profile;
 	 @FindBy(how=How.XPATH, using="//text()[.='Log Out']/ancestor::span[1]") WebElement logoutLink;
 	 @FindBy(how=How.XPATH, using="///div[text()='Good']") WebElement loggedUserNameText;
-	 
+	 //@FindBy(how=How.CSS, using="//div//a") WebElement cos;
+
 	        // click on Profile 
 	 public void clickProfile(){
 	 profile.click();
